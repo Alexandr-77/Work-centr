@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Получить сертификат</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header-top">
+        <div class="container">
+            <div class="header-top-cont">
+                <div class="header-block-logo">
+                    <img src="./img/header-top/ion_finger-print.svg" alt="logo">
+                    <h3>эксимбанк. <span>удостоверяющий центр</span></h3>
+                </div>
+                <div class="header-block-contakt">
+                    <div class="header-block-contakt__item">
+                        <img src="./img/header-top/fe_mail.svg" alt="маил">
+                        <h3>ca@bankexim.com</h3>
+                    </div>
+                    <div class="header-block-contakt__item">
+                        <img src="./img/header-top/ant-design_phone-outlined.svg" alt="телефон">
+                        <h3>0 (533) 68 220</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="nav" >
+        <div class="container">
+            <div class="nav-top">
+                <ul>
+                    <li><a  href="./index.html">Главная</a></li>
+                    <li><a href="./about-us.html">О нас</a></li>
+                    <li><a href="./file.html">Проверить сертификат</a></li>
+                    <li class="active"><a href="./instruction.html">Получить сертификат</a></li>
+                    <li><a href="./documen.html">Документы и регламенты</a></li>
+                    <li><a href="#">Тарифы</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="instruction">
+        <div class="container">
+            <div class="instruction-block">
+                <div class="instruction-block__item">
+                    <div class="croshki-instruction">
+                        <h5><a href="./index.html">Главная /</a> Получить сертификат</h5>
+                    </div>
+                    <h1>Скачайте и <br> установите программу</h1>
+                    <p><span>Системные требования:</span> <br>
+                        Операционная система Microsoft Windows 7 ServicePack2 и выше.
+                        Установленный Microsoft FrameWork 4.7.2 и выше. (<a href="#">Скачать</a>)</p>
+                    <div class="btn-block">
+                        <a class="btn-active" href="#">скачать программу</a>
+                    </div>    
+                </div>
+                <div class="instruction-block__item">
+                    <img src="./img/instruction/digital-1.svg" alt="img">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок активный  -->
+    <section class="our-instruction our-instruction-active" id="a">
+        <div class="container">
+            <h2 class="rest">следуйте дальнейшим инструкциям</h2>
+            <hr>
+            <div class="our-instruction-block">
+                <div class="our-instruction-block__item our-instruction-block__item-active" onclick="yur()">
+                    <img src="./img/instruction/manager.svg" alt="юр. лица">
+                    <h3>Юридические лица</h3>
+                </div>
+                <div class="our-instruction-block__item" onclick="fiz()">
+                    <img src="./img/instruction/worker.svg" alt="физ. лица" onclick="fiz()">
+                    <h3>Физические лица</h3>
+                </div>
+            </div>
+
+            <div class="our-instruction-text">
+                <h2>как получить сертификат <span>юридическому лицу</span></h2>
+
+                <p><b>Клиент – оформляет</b> <a href="#"> Письмо-запрос</a> для получения Сертификата открытого <br>  ключа электронной подписи с перечнем лиц, которым необходима подпись.
+                </p>
+                <p>Письмо предоставляется ОДНОВРЕМЕННО со следующим пакетом документов:
+                    <br>
+                    <br>
+                    <span class="our-instruction-text-otstup">Копия карточки с образцами подписей и оттиска печати;</span>                   
+                    <br>
+                    <span class="our-instruction-text-otstup">Выписка из ГРЮЛ на дату предоставления письма.</span>
+                </p>
+                <p>Генерация ключа:
+                    <br>
+                    <br>
+                <span class="our-instruction-text-otstup">3.1 При выборе Сертификата открытого ключа электронной подписи с выдачей токена, перед тем как создать запрос (с помощью программы «Управление ключами») необходимо получить в ОАО «Эксимбанк» Устройство-Токен по Акту приема-передачи и только после этого скачать программу «Управление ключами» и создать запрос, согласно приложенной инструкции.</span>
+                <br>
+                <br>
+                <span class="our-instruction-text-otstup">3.2 При выборе Сертификата открытого ключа электронной подписи (без Токена) необходимо скачать программу «Управление ключами» и создать запрос, согласно приложенной инструкции.</span>
+                </p>
+                <p>С помощью программы сгенерируйте ключи на ОДИН ключевой носитель, с помощью которого будет формироваться электронная подпись на документах. Ключевым носителем может быть электронное устройство, которое поддерживает используемое средство криптографической защиты информации</p>
+            
+                <p>Уполномоченному лицу организации с Документом удостоверяющим личность (паспорт ПМР или паспорт СССР) и обратиться в <a href="#"> отделение ОАО «Эксимбанка» </a> для оформления и подписания необходимых Документов.</p>
+
+                <p>Получение Сертификата открытого ключа – Срок действия Сертификата – 1 год.
+                    <br>
+                    <br>
+                    При возникновении вопросов обращаться по телефонам: (533) 7 99 03, (533) 7 99 05, (533) 7 99 06, (533) 7 99 09, 16-61
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Блок активный  // -->
+
+    <!-- Скрытый блок -->
+    <section class="our-instruction" id="b">
+        <div class="container">
+            <h2 class="rest">следуйте дальнейшим инструкциям</h2>
+            <hr>
+            <div class="our-instruction-block">
+                <div class="our-instruction-block__item" onclick="yur()">
+                    <img src="./img/instruction/manager-2.svg" alt="юр. лица" >
+                    <h3>Юридические лица</h3>
+                </div>
+                <div class="our-instruction-block__item our-instruction-block__item-active" onclick="fiz()">
+                    <img src="./img/instruction/worker-2.svg" alt="физ. лица">
+                    <h3>Физические лица</h3>
+                </div>
+            </div>
+
+            <div class="our-instruction-text our-instruction-text-too">
+                <h2>как получить сертификат <span>физическому лицу</span></h2>
+
+                <p>С помощью программы сгенерируйте ключи на ОДИН ключевой носитель, с помощью которого будет формироваться электронная подпись на документах. Ключевым носителем может быть электронное устройство, которое поддерживает используемое средство криптографической защиты информации
+                </p>
+
+                <p><b>ЗАЯВЛЕНИЕ НА ИЗГОТОВЛЕНИЕ СЕРТИФИКАТА ОТКРЫТОГО КЛЮЧА</b>
+                    <br>
+                    <br>
+                    <span class="our-instruction-text-otstup">1. Подготовьте необходимые документы: для граждан ПМР – паспорт ПМР или паспорт СССР (проверить в паспортном столе по месту жительства, внесен ли паспорт в базу МВД ПМР);</span>                   
+                    <br>
+                    <span class="our-instruction-text-otstup">2. Обратитесь в 
+                        <a href="#">отделение Эксимбанка</a> с пакетом документов для оформления заявления на регистрацию сертификата открытого ключа.</span>
+                </p>
+
+                <p><b>ПОЛУЧЕНИЕ СЕРТИФИКАТА ОТКРЫТОГО КЛЮЧА</b>
+                    <br>
+                    <br>
+                    Сертификат открытого ключа электронной подписи направляется его владельцу по электронной почте. Срок действия сертификата – 1 год.
+                    <br>
+                    <br>
+                    При возникновении вопросов обращаться по телефонам: (533) 7 99 03, (533) 7 99 05, (533) 7 99 06, (533) 7 99 09, 16-61
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Скрытый блок // -->
+
+
+
+    
+    
+    
+
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-cont">
+                <div class="footer-block-logo">
+                    <img src="./img/header-top/ion_finger-print.svg" alt="logo">
+                    <h3>эксимбанк. <span>удостоверяющий центр</span></h3>
+                </div>
+                <div class="footer-block-contakt">
+                    <div class="footer-block-contakt__item">
+                        <img src="./img/header-top/fe_mail.svg" alt="маил">
+                        <h3>ca@bankexim.com</h3>
+                    </div>
+                    <div class="footer-block-contakt__item">
+                        <img src="./img/header-top/ant-design_phone-outlined.svg" alt="телефон">
+                        <h3>0 (533) 68 220</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
